@@ -22,28 +22,28 @@ function Hero() {
   
   return (
    <section id="hero" className={styles.container}>
-    <div className={styles.colorModeContainer}>
+      <div className={styles.colorModeContainer}>
       <img className= {styles.hero} src={heroImg} alt="Perfile picture of Joaquin Moyano" />
       <img className={styles.colorMode} src={themeIcon} alt="Color made icon" 
         onClick= {toggleTheme}
-      
       />
-   </div>
+    </div>
    <div className={styles.info}>
-    <h1>Joaquin <br></br>Moyano</h1>
-    <h2>Developer</h2>
-    <span>
-      <a href="https://github.com/joamoyano" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt='Github icon'/></a> 
+      <h1>Joaquin <br></br>Moyano</h1>
+      <h2>Developer</h2>
+        <span>
+          <a href="https://github.com/joamoyano" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt='Github icon'/></a> 
 
-      <a href="https://www.linkedin.com/in/joaquin-moyano-cba/" target="_blank" rel="noopener noreferrer"><img src={LinkedinIcon} alt='Linkedin icon'/></a> 
+          <a href="https://www.linkedin.com/in/joaquin-moyano-cba/" target="_blank" rel="noopener noreferrer"><img src={LinkedinIcon} alt='Linkedin icon'/></a> 
      
-      <a href="mailto:joamoyano@gmail.com"target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a>
-    </span>
+          <a href="mailto:joamoyano@gmail.com"target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a>
+        </span>
+  
+        <p>Mejorando día a día para crear proyectos que inspiran y resuelven problemas</p>
+        <a href={CV} download>
+          <button className='hover' >Descargar CV</button>  
+        </a>
    </div>
-   <p>Mejorando día a día para crear proyectos que inspiran y resuelven problemas</p>
-   <a href={CV} download>
-    <button className='hover' >Descargar CV</button>  
-   </a>
    </section>
   )
 }

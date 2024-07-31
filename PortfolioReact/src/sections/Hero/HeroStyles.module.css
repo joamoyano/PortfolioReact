@@ -15,16 +15,21 @@
       display: flex;
       gap: 25px;
       justify-content: center;
-  
+      
       a {
         margin: 0;
   
         img {
-          width: 30px;
+          width: 60px;
         }
       }
     }
-  
+    
+    p{
+      color: var(--text-color);
+      font-size: 20px;
+
+    }
     a {
       width: fit-content;
       align-self: center;
