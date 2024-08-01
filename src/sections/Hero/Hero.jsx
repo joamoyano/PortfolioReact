@@ -36,7 +36,7 @@ function Hero() {
 
           <a href="https://www.linkedin.com/in/joaquin-moyano-cba/" target="_blank" rel="noopener noreferrer"><img src={LinkedinIcon} alt='Linkedin icon'/></a> 
      
-          <a href="mailto:joamoyano@gmail.com"target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a>
+          <a href="mailto:joaquinmoyanocba@gmail.com"target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a>
         </span>
   
         <p>Mejorando día a día para crear proyectos que inspiran y resuelven problemas</p>
