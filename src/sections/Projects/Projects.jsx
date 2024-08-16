@@ -22,18 +22,7 @@ function Projects() {
           h2="Fresh Burguers" 
           p="A simple restaurant website built with React and Next.js"
           />
-        <ProjectCard 
-          src={freshburger} 
-          link= "https://github.com/joamoyano/TriviaGamer"
-          h2="Fresh Burguers" 
-          p="A simple restaurant website built with React and Next.js"
-          /> 
-        <ProjectCard 
-          src={freshburger} 
-          link= "https://github.com/joamoyano/TriviaGamer"
-          h2="Fresh Burguers" 
-          p="A simple restaurant website built with React and Next.js"
-          />
+
           
       </div>
     </section>
