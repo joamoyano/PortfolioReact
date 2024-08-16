@@ -7,8 +7,8 @@ import Footer from './sections/Footer/Footer';
 function App() {
   return (
     <>
-      <Hero />
-      <Projects />
+      <Hero/>
+      <Projects/>
       <Skills/>
       <Contact/>
       <Footer/>
