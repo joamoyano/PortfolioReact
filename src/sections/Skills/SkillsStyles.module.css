@@ -14,17 +14,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px; 
-    list-style: none;
     margin-bottom: 50px;
     margin-top: 80px;
     padding: 0;
-
   }
   
   .skillIcon {
     width: 100px;
     height: 100px;
+    padding: 60px;
     transition: transform 200ms ease-in-out;
+    background-color: #eee;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 .skillIcon:hover {

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './ProjectsStyles.module.css';
 import ProjectCard from '../../common/ProjectCard';
-import freshburger from '../../assets/fresh-burger.png';
+import Trivia from '../../assets/Trivia.png';
 import startup from '../../assets/startup.png'
 
 function Projects() {
@@ -17,10 +17,10 @@ function Projects() {
           p="A simple landing page made with php"
           />
         <ProjectCard 
-          src={freshburger} 
+          src={Trivia} 
           link= "https://github.com/joamoyano/TriviaGamer"
-          h2="Fresh Burguers" 
-          p="A simple restaurant website built with React and Next.js"
+          h2="Trivia gamer" 
+          p="A simple Quizz game made with javascript"
           />
 
           

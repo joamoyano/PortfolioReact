@@ -11,6 +11,7 @@ import nodeIcon from '../../assets/nodejs.svg'
 import reactIcon from '../../assets/react.svg'
 import pythonIcon from '../../assets/python.svg'
 import sqlserverIcon from '../../assets/sqlserver.svg'
+import dotnetIcon from '../../assets/dotnet.svg'
 
 
 function Skills() {
@@ -23,6 +24,7 @@ function Skills() {
         <img src={jsIcon} alt="JavaScript" className={styles.skillIcon} />
         <img src={gitIcon} alt="Git" className={styles.skillIcon} />
         <img src={csharpIcon} alt="C#" className={styles.skillIcon} />
+        <img src={dotnetIcon} alt=".Net" className={styles.skillIcon} />
         <img src={phpIcon} alt="PHP" className={styles.skillIcon} />
         <img src={mysqlIcon} alt="MySQL" className={styles.skillIcon} />
         <img src={sqlserverIcon} alt="SqlServer" className={styles.skillIcon} />

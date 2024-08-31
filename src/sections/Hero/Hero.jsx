@@ -39,7 +39,7 @@ function Hero() {
           <a href="mailto:joaquinmoyanocba@gmail.com"target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a>
         </span>
   
-        <p>Mejorando día a día para crear proyectos que inspiran y resuelven problemas</p>
+        <p>Improving day by day to create projects that inspire and solve problems</p>
         <a href={CV} download>
           <button className='hover' >Descargar CV</button>  
         </a>
